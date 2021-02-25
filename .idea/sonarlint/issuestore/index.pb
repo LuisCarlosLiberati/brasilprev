@@ -11,3 +11,7 @@ e
 5src/test/java/br/com/brasilprev/pojo/ContatoPojo.java,1\4\147aff3e2208d55252a8ee1b4bfdc6c33985f0c4
 p
 @src/test/java/br/com/brasilprev/testesfuncionais/testPessoa.java,1\0\1086e50e14aa43e1089b8bceda0c8505e78dfe1b
+g
+7src/test/java/br/com/brasilprev/util/Configuracoes.java,d\c\dc8e805648d94e8d3987d3d0d1013e2b492cdc63
+`
+0src/test/java/br/com/brasilprev/util/Runner.java,0\9\0989d7ec7055fa1105f42c67c9e5ad4ff86c9f60
