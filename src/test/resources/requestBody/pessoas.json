@@ -1,0 +1,20 @@
+{
+  "nome":"Luis Liberati",
+  "cpf":"12345678909",
+  "enderecos":[
+    {
+      "logradouro":"Rua São João Clímaco",
+      "numero":249,
+      "complemento":"casa",
+      "bairro":"São João Clímaco",
+      "cidade":"São Paulo",
+      "estado":"SP"
+    }
+  ],
+  "telefones":[
+    {
+      "ddd":"11",
+      "numero":"949041329"
+    }
+  ]
+}

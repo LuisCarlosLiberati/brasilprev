@@ -1,0 +1,7 @@
+br\com\brasilprev\pojo\ContatoPojo.class
+br\com\brasilprev\util\Runner.class
+br\com\brasilprev\testesfuncionais\testPessoa.class
+br\com\brasilprev\pojo\EnderecoPojo.class
+br\com\brasilprev\factory\PessoaFactory.class
+br\com\brasilprev\pojo\PessoaPojo.class
+br\com\brasilprev\util\Configuracoes.class
