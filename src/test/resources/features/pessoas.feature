@@ -7,6 +7,7 @@ Funcionalidade: Cadastro e Consulta de Pessoas
 
 
 
+  @RegressionTest
   Esquema do Cenário:  Cadastrar Pessoa Com Sucesso
     Dado que desejo cadastrar uma pessoa
     Quando consulto o ddd <ddd> e numero <numero>
@@ -17,7 +18,7 @@ Funcionalidade: Cadastro e Consulta de Pessoas
       | ddd|numero     |status|
       |"11"|"949041329"|201   |
 
-
+  @SmokeTest
   Esquema do Cenário:  Consultar pessoa ja cadastrada pelo telefone
     Dado possuo o cadastro da pessoa com ddd <ddd> e numero <numero>
     Quando realizo o get em /pessoas informando o ddd <ddd> e numero <numero>
@@ -27,7 +28,7 @@ Funcionalidade: Cadastro e Consulta de Pessoas
       | ddd|numero     |status|
       |"11"|"949041329"|200   |
 
-
+  @SmokeTest
   Esquema do Cenário:  Consultar pessoa não cadastrada pelo telefone
     Dado que não possuo cadastro da pessoa com ddd <ddd> e numero <numero>
     Quando realizo o get em /pessoas informando o ddd <ddd> e numero <numero>
@@ -39,7 +40,7 @@ Funcionalidade: Cadastro e Consulta de Pessoas
 
 
 
-
+  @SmokeTest
   Esquema do Cenário:  Validar Excessao de pessoa ja cadastrada Pelo Telefone
     Dado possuo o cadastro da pessoa com ddd <ddd> e numero <numero>
     Quando realizo o post para cadastrar a mesma pessoa
@@ -48,7 +49,7 @@ Funcionalidade: Cadastro e Consulta de Pessoas
       | ddd|numero     |status|
       |"11"|"949041329"|400   |
 
-
+  @SmokeTest
   Esquema do Cenário:  Validar Excessao de pessoa ja cadastrada Pelo CPF
     Dado possuo o cadastro da pessoa com cpf <cpf>
     Quando realizo o post para cadastrar a mesma pessoa
@@ -58,7 +59,7 @@ Funcionalidade: Cadastro e Consulta de Pessoas
       | cpf   |status|
       |"12345678909"|400   |
 
-
+  @RegressionTest
   Esquema do Cenário:  Validar Excessao de pessoa informando nome com muitos caracteres (Teste Destrutivo)
     Dado que desejo cadastrar uma pessoa com nome de muitos caracteres
     Quando realizo post em pessoa informando um body invalido

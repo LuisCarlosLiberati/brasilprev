@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5de44875-9862-43b6-a53f-f02760d349ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/brasilprev/util/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/brasilprev/util/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/pessoas.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/pessoas.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/requestBody" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -147,6 +147,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="68" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1614188307213" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1614371145331">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1614371145331" />
     <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1614215467546">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
